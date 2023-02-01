@@ -1,20 +1,26 @@
-.main-container {
+body {
+    background-color: lightgray;
+    font-size: 15px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.main-container {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    padding: 1 rem;
+    max-width: 17rem;
+    margin-bottom: 1rem;
 }
 
 .qr-img {
-    height: 200px;
-    width: 200px;
+    width: 100%;
+
 }
-
-
-
-
-
-
-
-
 
 
 
